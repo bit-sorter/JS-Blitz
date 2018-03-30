@@ -1,0 +1,26 @@
+canvas.background {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+
+canvas.buildings {
+  display: none;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+div.blitz {
+  height: 480px;
+  margin: auto;
+  position: relative;
+  width: 640px;
+}
+
+h1.blitz {
+  text-align: center;
+  color: white;
+}
