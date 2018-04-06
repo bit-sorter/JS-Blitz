@@ -58,9 +58,6 @@ function init() {
   blitz.buildCanvas = document.getElementById('buildings');
   blitz.buildContext = blitz.buildCanvas.getContext('2d');
 
-  document.addEventListener("click", mouseClick);
-  document.addEventListener("keydown", keyDown);
-
   blitz.bang = false;
   blitz.gameOver = false;
   blitz.imageCount = 0;
@@ -92,6 +89,9 @@ function init() {
 
   blitz.canvasContext.font = "70px Arial";
   image_wait = setInterval(awaitImages, 100);
+
+  document.addEventListener("click", mouseClick);
+  document.addEventListener("keydown", keyDown);
 }
 
 function stoppedState()
